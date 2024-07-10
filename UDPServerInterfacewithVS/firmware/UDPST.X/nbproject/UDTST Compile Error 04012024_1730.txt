@@ -1,0 +1,72 @@
+make -f nbproject/Makefile-sam_e70_xult.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'D:/Krishna Sastry/Radar Projects/Pechora/ATSAME70Q21/UDPServerInterfacewithVS/firmware/UDPST.X'
+make  -f nbproject/Makefile-sam_e70_xult.mk dist/sam_e70_xult/production/UDPST.X.production.hex
+make[2]: Entering directory 'D:/Krishna Sastry/Radar Projects/Pechora/ATSAME70Q21/UDPServerInterfacewithVS/firmware/UDPST.X'
+"C:\Program Files\Microchip\xc32\v4.20\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAME70Q21B  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/sam_e70_xult" -I"../src/packs/ATSAME70Q21B_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/sam_e70_xult/production/_ext/1360937237/app.o.d" -o build/sam_e70_xult/production/_ext/1360937237/app.o ../src/app.c    -DXPRJ_sam_e70_xult=sam_e70_xult      -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/SAME70_DFP/4.6.98/same70b" -I "C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Program Files\Microchip\xc32\v4.20\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAME70Q21B  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/sam_e70_xult" -I"../src/packs/ATSAME70Q21B_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/sam_e70_xult/production/_ext/1953779166/sys_console_uart.o.d" -o build/sam_e70_xult/production/_ext/1953779166/sys_console_uart.o ../src/config/sam_e70_xult/system/console/src/sys_console_uart.c    -DXPRJ_sam_e70_xult=sam_e70_xult      -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/SAME70_DFP/4.6.98/same70b" -I "C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Program Files\Microchip\xc32\v4.20\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAME70Q21B  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/sam_e70_xult" -I"../src/packs/ATSAME70Q21B_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/sam_e70_xult/production/_ext/1728594169/tasks.o.d" -o build/sam_e70_xult/production/_ext/1728594169/tasks.o ../src/config/sam_e70_xult/tasks.c    -DXPRJ_sam_e70_xult=sam_e70_xult      -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/SAME70_DFP/4.6.98/same70b" -I "C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Program Files\Microchip\xc32\v4.20\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAME70Q21B  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/sam_e70_xult" -I"../src/packs/ATSAME70Q21B_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/sam_e70_xult/production/_ext/1728594169/initialization.o.d" -o build/sam_e70_xult/production/_ext/1728594169/initialization.o ../src/config/sam_e70_xult/initialization.c    -DXPRJ_sam_e70_xult=sam_e70_xult      -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/SAME70_DFP/4.6.98/same70b" -I "C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Program Files\Microchip\xc32\v4.20\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAME70Q21B  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/sam_e70_xult" -I"../src/packs/ATSAME70Q21B_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/sam_e70_xult/production/_ext/1728594169/interrupts.o.d" -o build/sam_e70_xult/production/_ext/1728594169/interrupts.o ../src/config/sam_e70_xult/interrupts.c    -DXPRJ_sam_e70_xult=sam_e70_xult      -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/SAME70_DFP/4.6.98/same70b" -I "C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Program Files\Microchip\xc32\v4.20\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAME70Q21B  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/sam_e70_xult" -I"../src/packs/ATSAME70Q21B_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/sam_e70_xult/production/_ext/1728594169/exceptions.o.d" -o build/sam_e70_xult/production/_ext/1728594169/exceptions.o ../src/config/sam_e70_xult/exceptions.c    -DXPRJ_sam_e70_xult=sam_e70_xult      -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/SAME70_DFP/4.6.98/same70b" -I "C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Program Files\Microchip\xc32\v4.20\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAME70Q21B  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src" -I"../src/config/sam_e70_xult" -I"../src/packs/ATSAME70Q21B_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/sam_e70_xult/production/_ext/1360937237/main.o.d" -o build/sam_e70_xult/production/_ext/1360937237/main.o ../src/main.c    -DXPRJ_sam_e70_xult=sam_e70_xult      -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/SAME70_DFP/4.6.98/same70b" -I "C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+nbproject/Makefile-sam_e70_xult.mk:343: recipe for target 'build/sam_e70_xult/production/_ext/1953779166/sys_console_uart.o' failed
+nbproject/Makefile-sam_e70_xult.mk:391: recipe for target 'build/sam_e70_xult/production/_ext/1728594169/interrupts.o' failed
+nbproject/Makefile-sam_e70_xult.mk:415: recipe for target 'build/sam_e70_xult/production/_ext/1360937237/app.o' failed
+nbproject/Makefile-sam_e70_xult.mk:379: recipe for target 'build/sam_e70_xult/production/_ext/1728594169/tasks.o' failed
+nbproject/Makefile-sam_e70_xult.mk:385: recipe for target 'build/sam_e70_xult/production/_ext/1728594169/initialization.o' failed
+nbproject/Makefile-sam_e70_xult.mk:421: recipe for target 'build/sam_e70_xult/production/_ext/1360937237/main.o' failed
+nbproject/Makefile-sam_e70_xult.mk:397: recipe for target 'build/sam_e70_xult/production/_ext/1728594169/exceptions.o' failed
+make[2]: Leaving directory 'D:/Krishna Sastry/Radar Projects/Pechora/ATSAME70Q21/UDPServerInterfacewithVS/firmware/UDPST.X'
+In file included from ../src/config/sam_e70_xult/definitions.h:69,
+                 from ../src/config/sam_e70_xult/system/console/src/sys_console_uart.c:48:
+../src/app.h:114:5: error: unknown type name 'UDP_SOCKET'
+     UDP_SOCKET              socket;
+     ^~~~~~~~~~
+In file included from ../src/app.c:53:
+../src/app.h:114:5: error: unknown type name 'UDP_SOCKET'
+     UDP_SOCKET              socket;
+     ^~~~~~~~~~
+../src/app.c:55:10: fatal error: tcpip/tcpip.h: No such file or directory
+ #include "tcpip/tcpip.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../src/config/sam_e70_xult/definitions.h:69,
+                 from ../src/config/sam_e70_xult/initialization.c:47:
+../src/app.h:114:5: error: unknown type name 'UDP_SOCKET'
+     UDP_SOCKET              socket;
+     ^~~~~~~~~~
+In file included from ../src/config/sam_e70_xult/definitions.h:69,
+                 from ../src/config/sam_e70_xult/interrupts.c:54:
+../src/app.h:114:5: error: unknown type name 'UDP_SOCKET'
+     UDP_SOCKET              socket;
+     ^~~~~~~~~~
+make[2]: *** [build/sam_e70_xult/production/_ext/1953779166/sys_console_uart.o] Error 255
+make[2]: *** Waiting for unfinished jobs....
+In file included from ../src/config/sam_e70_xult/definitions.h:69,
+                 from ../src/config/sam_e70_xult/tasks.c:54:
+../src/app.h:114:5: error: unknown type name 'UDP_SOCKET'
+     UDP_SOCKET              socket;
+     ^~~~~~~~~~
+make[2]: *** [build/sam_e70_xult/production/_ext/1728594169/interrupts.o] Error 255
+make[2]: *** [build/sam_e70_xult/production/_ext/1360937237/app.o] Error 255
+make[2]: *** [build/sam_e70_xult/production/_ext/1728594169/tasks.o] Error 255
+In file included from ../src/config/sam_e70_xult/definitions.h:69,
+                 from ../src/main.c:28:
+../src/app.h:114:5: error: unknown type name 'UDP_SOCKET'
+     UDP_SOCKET              socket;
+     ^~~~~~~~~~
+In file included from ../src/config/sam_e70_xult/definitions.h:69,
+                 from ../src/config/sam_e70_xult/exceptions.c:49:
+../src/app.h:114:5: error: unknown type name 'UDP_SOCKET'
+     UDP_SOCKET              socket;
+     ^~~~~~~~~~
+make[2]: *** [build/sam_e70_xult/production/_ext/1728594169/initialization.o] Error 255
+make[2]: *** [build/sam_e70_xult/production/_ext/1360937237/main.o] Error 255
+make[2]: *** [build/sam_e70_xult/production/_ext/1728594169/exceptions.o] Error 255
+make[1]: *** [.build-conf] Error 2
+make: *** [.build-impl] Error 2
+nbproject/Makefile-sam_e70_xult.mk:94: recipe for target '.build-conf' failed
+make[1]: Leaving directory 'D:/Krishna Sastry/Radar Projects/Pechora/ATSAME70Q21/UDPServerInterfacewithVS/firmware/UDPST.X'
+nbproject/Makefile-impl.mk:39: recipe for target '.build-impl' failed
+
+BUILD FAILED (exit value 2, total time: 908ms)
